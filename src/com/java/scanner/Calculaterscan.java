@@ -1,18 +1,22 @@
+
 package com.java.scanner;
 
 import java.util.Scanner;
 
 public class Calculaterscan {
 	public static void main(String[] args) {
-		System.out.println("Lets go");
-		Scanner mb = new Scanner(System.in);
-		System.out.println("enter value a");
-		int a = mb.nextInt();
-		System.out.println("enter value b");
-		int b =mb.nextInt() ;
-		int sum = a+b;
-		System.out.println("sum is  "+sum);
-				
+		System.err.println("here we go !");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("please enter ur first input");
+		int a = sc.nextInt();
+		System.out.println("please enter your second input ");
+		int b = sc.nextInt();
+		int mul = a*b;
+		System.err.println("here is your output >>>>>");
+		System.out.println(mul);
+		sc.close();
+		
 	}
-
 }
+
+
