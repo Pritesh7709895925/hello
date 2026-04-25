@@ -2,7 +2,7 @@ package com.java.IFELSE;
 
 public class IfElseState {
 	public static void main(String[] args) {
-		int a = 21;
+		int a = 15;
 		if (a%2==0) {
 			System.out.println("given number is even");
 			if (a%3==0) {
